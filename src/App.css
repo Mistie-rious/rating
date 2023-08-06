@@ -72,6 +72,9 @@
   margin: 10px;
 }
 
+button{
+  border: none;
+}
 button.submit{
   text-align: center;
   padding: 8px 60px;
