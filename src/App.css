@@ -1,0 +1,103 @@
+* {
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%));
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerthanks {
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  width: 40px; /* Increase the width to add spacing */
+  height: 40px; /* Increase the height to add spacing */
+  margin: 10px; /* Add margin to create spacing around the circles */
+  align-items: center;
+  border-radius: 100%;
+  background-color: hsl(211, 19%, 24%);
+  display: flex;
+  justify-content: center;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circles {
+  width: 40px; /* Increase the width to add spacing */
+  height: 40px; /* Increase the height to add spacing */
+  margin: 10px; /* Add margin to create spacing around the circles */
+
+  border-radius: 50%;
+  background-color: hsl(211, 19%, 24%);
+
+}
+
+.heading {
+  color: white;
+  margin: 10px;
+  font-size: 21px;
+} 
+
+.smalltext {
+  color: hsl(217, 12%, 63%);
+  margin: 10px;
+}
+
+button.submit{
+  text-align: center;
+  padding: 8px 60px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  color: white;
+  outline: 0;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  
+}
+link{
+  text-decoration: none;
+}
+
+.circlelong {
+  padding: 5px 15px; /* Increase the height to add spacing */
+  margin: 10px; /* Add margin to create spacing around the circles */
+  align-items: center;
+  border-radius: 20px;
+  background-color: hsl(211, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
